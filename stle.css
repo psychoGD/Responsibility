@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Sen&display=swap');
+
+
+*{
+    margin: 0;
+    
+}
+
+body {
+    background: url("images/bgimage.png") center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    width: 93%;
+    margin: auto;
+}
+
+.background-image{
+    
+}
+
+.bg-green{
+    background-color: #8eb50b;
+}
+
+.bg-black{
+    background-color: #252525;
+}
+
+/* 264 px */
+.square-h{
+    width: 14%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 37px;
+    text-align: center;
+    
+}
+
+.square-h > *{
+    margin: auto;
+}
+
+
+
+.square-h > p{
+    color: white;
+    font-size: 0.9em;
+    font-family: 'Sen', sans-serif;
+}
+/* 672 px */
+.square-main{
+    width: 37%;
+
+}
+.square-main > *{
+    margin: auto;
+    display: inline-block;
+}
+
